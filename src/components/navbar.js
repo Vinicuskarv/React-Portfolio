@@ -1,47 +1,33 @@
-import React from 'react';
-
 function NavBar() {
   return (
-    <nav style={styles.navbar}>
-      <div style={styles.logo}>
-        <a href="#" style={styles.link}>Logo</a>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div className="container d-flex" id="containe_nav">
+        <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" style={{ boxShadow: 'none' }}>
+          <svg id="Menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48px" height="48px">
+            <path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z" />
+          </svg>
+        </button>
+        <a href="/index.html" style={{ textDecoration: 'none' }}><h3 id="NameMenu">&lt;Vinicius/&gt;</h3></a>
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/indexSobre.html">Sobre</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/indexFerramentas.html">Ferramentas</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/indexProjetos.html">Projetos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul style={styles.navLinks}>
-        <li><a href="/" style={styles.link}>Home</a></li>
-        <li><a href="/about" style={styles.link}>About</a></li>
-        <li><a href="/services" style={styles.link}>Services</a></li>
-        <li><a href="/contact" style={styles.link}>Contact</a></li>
-      </ul>
     </nav>
   );
 }
 
-const styles = {
-  navbar: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '1rem',
-  },
-  logo: {
-    fontSize: '1.5rem',
-    fontWeight: 'bold',
-  },
-  navLinks: {
-    listStyle: 'none',
-    display: 'flex',
-  },
-  link: {
-    padding: '0.5rem 1rem',
-    textDecoration: 'none',
-    color: '#D71313',
-    transition: 'color 0.2s ease-in-out, background-color 0.2s ease-in-out', // Adicionamos uma transição suave para os efeitos hover
-    ':hover': {
-      color: '#0D1282',
-      cursor: 'pointer',
-      backgroundColor: 'black', // Altera o fundo para preto quando o mouse passar sobre o link
-    },
-  },
-};
-
 export default NavBar;
+
