@@ -1,0 +1,45 @@
+.contaiIcons img:hover {
+    animation: rotateInfinitely 5s linear infinite;
+    transform: rotate(360deg); /* Força a imagem a estar no estado final da animação em hover */
+}
+@keyframes rotateInfinitely {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.IconReact{
+    animation: rotateInfinitely 10s linear infinite;
+    transform: rotate(360deg); /* Força a imagem a estar no estado final da animação em hover */
+    
+}
+@keyframes rotateInfinitely {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+.buttonSobreMim{
+    background: -webkit-linear-gradient(#460d60b0,#124886b1);
+}
+.buttonSobreMim:hover{
+    background: -webkit-linear-gradient(#460d60dd,#124886e4);
+}
+.astronauta{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+@media screen and (max-width:770px) {
+    .astronauta{
+        display: none;
+    }
+    #InfoContainer{
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,31 +1,47 @@
-import './navbar.css';
-
+import IconReact from './icons/icons8-react-native.svg';
+import './master.css';
 function NavBar() {
   return (
-    <nav className="container-fluid" id='containerNavbar'>
+    <div>
+      <nav className="container" style={styles.NavBar}>
         <ul style={styles.ul}>
-          <li>
+          <li style={styles.li}>
             <a className="nav-link active" aria-current="page">Home</a>
           </li>
-          <li>
-            <a className="nav-link" href="#">Sobre</a>
+          <li style={styles.li}>
+            <a className="nav-link" href="#">About</a>
           </li>
-          <li>
-            <a className="navbar-brand" href="#"><h3 id="NameMenu">Vinicius</h3></a>
+          <li style={styles.li}>
+            <img className='IconReact' src={IconReact} alt="Icon React" />
           </li>
-          <li>
-            <a className="nav-link">Ferramentas</a>
+          <li style={styles.li}>
+            <a className="nav-link">Tools</a>
           </li>
-          <li>
-            <a className="nav-link">Projetos</a>
+          <li style={styles.li}>
+            <a className="nav-link">Projects</a>
           </li>
         </ul>
-    </nav>
+      </nav>
+    </div>
   );
 }
 const styles = {
+  NavBar:{
+    position: 'relative',
+    top: '20px',
+    borderBottom: '1px solid rgba(255, 255, 255, 0.441)',
+  },
   ul: {
     paddingLeft: '0',
+    display: 'flex',
+    top: '10px',
+    listStyle:'none',
+    justifyContent: 'space-around',
+  },
+  li:{
+    color: 'aliceblue',
+    margin: 'auto',
+    fontFamily: "'Lora', serif",
   }
 }
 
