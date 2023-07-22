@@ -1,13 +1,16 @@
 import React from 'react';
 import NavBar from '../../components/navbar';
+import AboutContainer from './ContainerInfoAbout';
 import ImagemBackground from '../../background.jpg';
 
 function Home() {
   return (
     <div className="App">
       <div style={styles.content}>
-        <NavBar />
+        <NavBar/>
+        <AboutContainer/>
       </div>
+        
       <img src={ImagemBackground} style={styles.ImagemBackground} alt="Image the background" />
     </div>
   );

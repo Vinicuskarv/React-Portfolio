@@ -1,15 +1,16 @@
-import './master.css';
-import icongithub from './icons/icons8-github.svg';
-import iconlinkedin from './icons/icons8-linkedin.svg';
-import iconwhatsapp from './icons/icons8-whatsapp.svg';
-import astronauta from './Astronauta.png';
+import '../../components/master.css';
+import './Home.css'
+import icongithub from '../../components/icons/icons8-github.svg';
+import iconlinkedin from '../../components/icons/icons8-linkedin.svg';
+import iconwhatsapp from '../../components/icons/icons8-whatsapp.svg';
+import astronauta from '../../components/Astronauta.png';
 
 function HomeContainer() {
   return (
     <div className="container" style={styles.containerInfo}>
       <div id='InfoContainer' style={styles.Info}>
         <p>Hello people,</p>
-        <h1  style={styles.h1}>I'M VINICIUS<br/>CARVALHO</h1>
+        <h1 style={styles.h1}>I'M VINICIUS<br/>CARVALHO</h1>
         <p>Welcome to my portfolio website</p>
         <a href="/AboutPage"><button className='buttonSobreMim' style={styles.ButtonSobreMim} >Learn more about me</button></a>
         <div className="contaiIcons">
@@ -17,12 +18,13 @@ function HomeContainer() {
             <img src={icongithub} style={styles.icon} alt="icon from github" />
           </a>
           <a href="https://www.linkedin.com/in/vinicius-carvalho-lucius/">
-            <img src={iconlinkedin} style={styles.icon} alt="icon from github" />
+            <img src={iconlinkedin} style={styles.icon} alt="icon from linkedin" />
           </a>
           <a href="https://wa.me/351914127602">
-            <img src={iconwhatsapp} style={styles.icon} alt="icon from github" />        
+            <img src={iconwhatsapp} style={styles.icon} alt="icon from whatsapp" />        
           </a>
         </div>
+        
       </div>
       <img className='astronauta' src={astronauta} alt="icon from github" />  
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../../components/navbar';
-import ContainerInfo from '../../components/ContainerInfo';
+import ContainerInfo from './ContainerInfoHome';
 import ImagemBackground from '../../background.jpg';
 
 function Home() {

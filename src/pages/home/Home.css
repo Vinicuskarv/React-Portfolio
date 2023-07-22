@@ -1,0 +1,26 @@
+.astronauta{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    animation: AnimationAstronauta 10s linear infinite;
+}
+@keyframes AnimationAstronauta {
+    0% {
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(-5deg);
+    }
+    70%{
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+} 
+.buttonSobreMim{
+    background: -webkit-linear-gradient(#460d60b0,#124886b1);
+}
+.buttonSobreMim:hover{
+    background: -webkit-linear-gradient(#460d60dd,#124886e4);
+}
