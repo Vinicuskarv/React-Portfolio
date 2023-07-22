@@ -27,13 +27,66 @@ function AboutContainer() {
           <a href="https://wa.me/351914127602">
             <img src={iconwhatsapp} style={styles.icon} alt="icon from whatsapp" />        
           </a>
-        </div>
+        </div> 
         <h3 style={styles.h3}>Hard Skills</h3>
         <div className="d-flex">
-            <div className="Skill">
+            <div style={styles.Skill}>
                 <h4>HTML</h4>
-                <img className="IconSkill" src={iconOn} alt="on"/>
-                <img className="IconSkill" src={iconOff} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+            </div>
+            <div style={styles.Skill}>
+                <h4>CSS</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+            </div>
+            <div style={styles.Skill}>
+                <h4>React</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+            </div>
+            <div style={styles.Skill}>
+                <h4>PHP</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+            </div>
+        </div>
+        <div className="d-flex">
+            <div style={styles.Skill}>
+                <h4>MySQL</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+            </div>
+            <div style={styles.Skill}>
+                <h4>Inglês</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+            </div>
+            <div style={styles.Skill}>
+                <h4>JavaScript</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
             </div>
         </div>
       </div>
@@ -41,32 +94,40 @@ function AboutContainer() {
   );
 }
 const styles = {
-  containerInfo:{
-    position: 'relative',
-    top: '50px',
-    border: '2px solid rgba(255, 255, 255, 0.575)',
-    borderRadius: '10px',
-    color: 'aliceblue',
-    '--bs-gutter-x':'0',
-  },
-  Info:{
-    backgroundColor:' rgba(181, 180, 180, 0.226)',
-    padding: '30px',
-    fontFamily: "'Lora', serif",
-    textAlign:'center',
-  },
-  icon: {
-    width: '28px',
-    margin: '2px',
-  },
-  h1:{
-    fontSize: '50px',
-  },
-  h3:{
-    fontSize: '30px',
-    margin:'5px',
-    fontWeight:'bolde',
-  },
+    Skill:{
+        margin: 'auto',
+        padding: '10px',
+    },
+    IconSkill:{
+        width:'25px',
+    },
+    containerInfo:{
+        position: 'relative',
+        top: '50px',
+        border: '2px solid rgba(255, 255, 255, 0.575)',
+        borderRadius: '10px',
+        color: 'aliceblue',
+        '--bs-gutter-x':'0',
+        marginBottom:'100px',
+    },
+    Info:{
+        backgroundColor:' rgba(181, 180, 180, 0.226)',
+        padding: '30px',
+        fontFamily: "'Lora', serif",
+        textAlign:'center',
+    },
+    icon: {
+        width: '28px',
+        margin: '2px',
+    },
+    h1:{
+        fontSize: '50px',
+    },
+    h3:{
+        fontSize: '30px',
+        margin:'5px',
+        fontWeight:'bolde',
+    },
 };
 
 export default AboutContainer;

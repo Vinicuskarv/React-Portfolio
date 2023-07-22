@@ -21,15 +21,3 @@
         transform: rotate(0deg);
     }
 } 
-@media screen and (max-width:770px) {
-    .AstronautaMeditando{
-        display: none;
-    }
-}
-.IconSkill{
-    width: 25px;
-}
-.Skill{
-    margin: auto;
-    padding: 10px;
-}
