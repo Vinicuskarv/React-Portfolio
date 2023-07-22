@@ -1,6 +1,6 @@
 .contaiIcons img:hover {
     animation: rotateInfinitely 5s linear infinite;
-    transform: rotate(360deg); /* Força a imagem a estar no estado final da animação em hover */
+    transform: rotate(360deg); 
 }
 @keyframes rotateInfinitely {
     from {
@@ -12,7 +12,7 @@
 }
 .IconReact{
     animation: rotateInfinitely 10s linear infinite;
-    transform: rotate(360deg); /* Força a imagem a estar no estado final da animação em hover */
+    transform: rotate(360deg);
     
 }
 @keyframes rotateInfinitely {
@@ -33,7 +33,19 @@
     margin: auto;
     width: 300px;
     height: 300px;
+    animation: AnimationAstronauta 10s linear infinite;
 }
+@keyframes AnimationAstronauta {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+} 
 @media screen and (max-width:770px) {
     .astronauta{
         display: none;

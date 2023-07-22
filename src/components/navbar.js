@@ -6,13 +6,15 @@ function NavBar() {
       <nav className="container" style={styles.NavBar}>
         <ul style={styles.ul}>
           <li style={styles.li}>
-            <a className="nav-link active" aria-current="page">Home</a>
+            <a className="nav-link" href="/">Home</a>
           </li>
           <li style={styles.li}>
-            <a className="nav-link" href="#">About</a>
+            <a className="nav-link" href="/AboutPage">About</a>
           </li>
           <li style={styles.li}>
-            <img className='IconReact' src={IconReact} alt="Icon React" />
+            <a className="nav-link" href="/">
+              <img className='IconReact' src={IconReact} alt="Icon React" />
+            </a>
           </li>
           <li style={styles.li}>
             <a className="nav-link">Tools</a>

@@ -1,35 +1,21 @@
 import React from 'react';
-import NavBar from './components/navbar';
-import HomeContainer from './components/home-container';
-import ImagemBackground from './background.jpg';
+import Home from './pages/home/HomePage';
+import About from './pages/about/AboutPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <div style={styles.content}>
-        <NavBar />
-        <br />
-        <HomeContainer/>
-      </div>
-      <img src={ImagemBackground} style={styles.ImagemBackground} alt="Image the background" />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/AboutPage' element={<About/>}/>
+        </Routes>
+      </BrowserRouter>
+       
     </div>
   );
 }
-
-const styles = {
-  content: {
-    position: 'relative',
-    zIndex: 1,
-  },
-  ImagemBackground: {
-    position: 'absolute',
-    top: '0',
-    left: '0',
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-  },
-};
 
 export default App;
 

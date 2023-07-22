@@ -11,7 +11,7 @@ function HomeContainer() {
         <p>Hello people,</p>
         <h1  style={styles.h1}>I'M VINICIUS<br/>CARVALHO</h1>
         <p>Welcome to my portfolio website</p>
-        <a><button className='buttonSobreMim' style={styles.ButtonSobreMim} >Learn more about me</button></a>
+        <a href="/AboutPage"><button className='buttonSobreMim' style={styles.ButtonSobreMim} >Learn more about me</button></a>
         <div className="contaiIcons">
           <a href="https://github.com/Vinicuskarv">
             <img src={icongithub} style={styles.icon} alt="icon from github" />
