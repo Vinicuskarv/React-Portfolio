@@ -17,10 +17,10 @@ function NavBar() {
             </a>
           </li>
           <li style={styles.li}>
-            <a className="nav-link">Tools</a>
+            <a className="nav-link" href="/ToolsPage">Tools</a>
           </li>
           <li style={styles.li}>
-            <a className="nav-link">Projects</a>
+            <a className="nav-link"href="/ProjectPage">Projects</a>
           </li>
         </ul>
       </nav>

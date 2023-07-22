@@ -1,6 +1,8 @@
 import React from 'react';
 import Home from './pages/home/HomePage';
 import About from './pages/about/AboutPage';
+import Tools from './pages/tools/ToolsPage';
+import Projects from './pages/projects/ProjectPage';
 import ImagemBackground from './background.jpg';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -12,6 +14,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/AboutPage' element={<About/>}/>
+            <Route path='/ToolsPage' element={<Tools/>}/>
+            <Route path='/ProjectPage' element={<Projects/>}/>
           </Routes>
         </BrowserRouter>
       </div>

@@ -1,9 +1,7 @@
-import React from 'react';
 import NavBar from '../../components/navbar';
 import AboutContainer from './ContainerInfoAbout';
 
-
-function Home() {
+function About() {
   return (
     <div className="App">
         <NavBar/>
@@ -12,4 +10,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

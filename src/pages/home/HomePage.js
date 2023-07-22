@@ -1,12 +1,11 @@
-import React from 'react';
 import NavBar from '../../components/navbar';
-import ContainerInfo from './ContainerInfoHome';
+import HomeContainer from './ContainerInfoHome';
 
 function Home() {
   return (
     <div>
         <NavBar/>
-        <ContainerInfo/>
+        <HomeContainer/>
     </div>
   );
 }
