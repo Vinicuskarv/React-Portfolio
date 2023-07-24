@@ -23,14 +23,30 @@
     }
 } 
 @media screen and (max-width:770px) {
-    .astronauta{
-        display: none;
-    }
     #InfoContainer{
         width: 100%;
         text-align: center;
     }
-    .AstronautaMeditando{
+    .AstronautaMeditando,.PInfo,.astronauta{
         display: none;
     }
+    .CampoMyPortif{
+        display: inline!important;
+        text-align: center;
+        width: 100%;
+    }
+}
+.navEdit{
+    margin: 10px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.nav-pills .active{
+    background: -webkit-linear-gradient(#460d60b0,#124886b1);
+    color: rgb(250, 244, 235);
+}
+.card{
+    width: 18rem;
+    opacity: 50%;
 }
