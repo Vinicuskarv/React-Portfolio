@@ -99,7 +99,7 @@ const styles = {
         marginBottom:'100px',
     },
     Info:{
-        backgroundColor:' rgba(181, 180, 180, 0.226)',
+        backgroundColor:' rgba(181, 180, 180, 0.426)',
         padding: '30px',
         fontFamily: "'Lora', serif",
         textAlign:'center',

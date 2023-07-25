@@ -11,12 +11,12 @@ function ToolsContainer() {
         <h1 style={styles.h1}>Technologies</h1>
         <p style={styles.p}>Already used</p>
         <div>
-            <i style={styles.icon} class="devicon-html5-plain"></i>
-            <i style={styles.icon} class="devicon-css3-plain"></i>
-            <i style={styles.icon} class="devicon-javascript-plain"></i>
+            <i style={styles.icon} className="devicon-html5-plain"></i>
+            <i style={styles.icon} className="devicon-css3-plain"></i>
+            <i style={styles.icon} className="devicon-javascript-plain"></i>
             <img style={styles.iconImg} src={IconPhp} alt="Icon Php" />
             <img style={styles.iconImg} src={IconMysql} alt="Icon Mysql" />
-            <i style={styles.icon} class="devicon-react-original"></i>
+            <i style={styles.icon} className="devicon-react-original"></i>
         </div>
         <ContaineIcons/>
         <div style={styles.poesia}>
@@ -38,7 +38,7 @@ const styles = {
         '--bs-gutter-x':'0',
     },
     Info:{
-        backgroundColor:' rgba(181, 180, 180, 0.226)',
+        backgroundColor:' rgba(181, 180, 180, 0.326)',
         padding: '30px',
         fontFamily: "'Lora', serif",
         textAlign:'center',

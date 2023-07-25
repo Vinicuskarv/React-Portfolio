@@ -40,17 +40,17 @@ function ProjectsContainer() {
             </li>
           </ul>
           <div className="tab-content" id="pills-tabContent">
-            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
               <div className="container text-center">
                 <div className="row">  
                   <div className="col-12 col-md-6 col-lg-4">
                     <div className="card" style={styles.CardPri}>
-                      <img src={jurosCompostos} class="card-img" style={styles.imgCard} alt="jurosCompostos"/>
+                      <img src={jurosCompostos} className="card-img" style={styles.imgCard} alt="jurosCompostos"/>
                       <div className="card-img-overlay">
                         <h5 className="card-title">Juros Compostos</h5>
                         <div className="campoIconsProfile">
-                          <a className="elemento-container" href="https://github.com/Vinicuskarv/calculadora-juros-compostos"><img class="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
-                          <a className="elemento-container" href="https://649802b8e163ac6a5ee8f4af--fascinating-dragon-8c0363.netlify.app/"><img class="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
+                          <a className="elemento-container" href="https://github.com/Vinicuskarv/calculadora-juros-compostos"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
+                          <a className="elemento-container" href="https://649802b8e163ac6a5ee8f4af--fascinating-dragon-8c0363.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
                         </div>
                         <div className="campoIconstool">
                           <img src={iconHTML} alt="html"/>
@@ -62,7 +62,7 @@ function ProjectsContainer() {
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
                     <div className="card" style={styles.CardPri}>
-                      <img src={formulario} class="card-img" style={styles.imgCard} alt="hotelDiaria"/>
+                      <img src={formulario} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
                         <h5 className="card-title">Fomulário</h5>
                         <div className="campoIconsProfile">
@@ -164,7 +164,7 @@ function ProjectsContainer() {
                 </div>
               </div>
             </div>
-            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
                 <div className="container text-center">
                   <div className="row">
                   <div className="col-12 col-md-6 col-lg-4">
@@ -203,12 +203,12 @@ function ProjectsContainer() {
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
                     <div className="card" style={styles.CardPri}>
-                      <img src={jurosCompostos} class="card-img" style={styles.imgCard} alt="jurosCompostos"/>
+                      <img src={jurosCompostos} className="card-img" style={styles.imgCard} alt="jurosCompostos"/>
                       <div className="card-img-overlay">
                         <h5 className="card-title">Juros Compostos</h5>
                         <div className="campoIconsProfile">
-                          <a className="elemento-container" href="https://github.com/Vinicuskarv/calculadora-juros-compostos"><img class="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
-                          <a className="elemento-container" href="https://649802b8e163ac6a5ee8f4af--fascinating-dragon-8c0363.netlify.app/"><img class="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
+                          <a className="elemento-container" href="https://github.com/Vinicuskarv/calculadora-juros-compostos"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
+                          <a className="elemento-container" href="https://649802b8e163ac6a5ee8f4af--fascinating-dragon-8c0363.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
                         </div>
                         <div className="campoIconstool">
                           <img src={iconHTML} alt="html"/>
@@ -221,7 +221,7 @@ function ProjectsContainer() {
                   </div>                    
                 </div>
             </div>
-            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0">
                 <div className="container text-center">
                     <div className="row">
                         <div>
