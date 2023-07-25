@@ -44,10 +44,10 @@ function ProjectsContainer() {
               <div className="container text-center">
                 <div className="row">  
                   <div className="col-12 col-md-6 col-lg-4">
+                    <h5 className="card-title" style={styles.h5}>Juros Compostos</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={jurosCompostos} className="card-img" style={styles.imgCard} alt="jurosCompostos"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Juros Compostos</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/calculadora-juros-compostos"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://649802b8e163ac6a5ee8f4af--fascinating-dragon-8c0363.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
@@ -61,10 +61,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Fomulário</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={formulario} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Fomulário</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/form"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                         </div>
@@ -78,10 +78,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>To do list</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={toDoList} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">To do list</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/My-to-do-list"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://chic-lolly-ed391b.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="github"/></a>
@@ -95,10 +95,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Ler json</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={lerJson} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Ler json</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/Ler-json"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://6497fecf7a500b67ec29bd3e--steady-trifle-decf83.netlify.app/#"><img className="IconSkill elemento" src={iconsite} alt="github"/></a>
@@ -112,10 +112,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                    <h5 className="card-title"style={styles.h5}>Snake Game</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={snake} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Snake Game</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/snake-game"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://incredible-cobbler-31243e.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="github"/></a>
@@ -129,10 +129,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                    <h5 className="card-title" style={styles.h5}>Demon Slayer</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={demonSlayer} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Demon Slayer</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/demon-slayer"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://64980b843a58646c2382c3f5--clinquant-lamington-edc8c1.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="github"/></a>
@@ -145,10 +145,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Diaria Hotel</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={hotelDiaria} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Diaria Hotel</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/Hotel-diaria"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                         </div>
@@ -168,10 +168,10 @@ function ProjectsContainer() {
                 <div className="container text-center">
                   <div className="row">
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Snake Game</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={snake} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Snake Game</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/snake-game"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://incredible-cobbler-31243e.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="github"/></a>
@@ -185,10 +185,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title"style={styles.h5}>To do list</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={toDoList} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">To do list</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/My-to-do-list"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://chic-lolly-ed391b.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="github"/></a>
@@ -202,10 +202,10 @@ function ProjectsContainer() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Juros Compostos</h5>
                     <div className="card" style={styles.CardPri}>
                       <img src={jurosCompostos} className="card-img" style={styles.imgCard} alt="jurosCompostos"/>
                       <div className="card-img-overlay">
-                        <h5 className="card-title">Juros Compostos</h5>
                         <div className="campoIconsProfile">
                           <a className="elemento-container" href="https://github.com/Vinicuskarv/calculadora-juros-compostos"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
                           <a className="elemento-container" href="https://649802b8e163ac6a5ee8f4af--fascinating-dragon-8c0363.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
@@ -256,8 +256,11 @@ const styles = {
     marginTop:'auto',
     marginLeft:'30px',
   },
+  h5:{
+    marginTop:'10px',
+  },
   CardPri:{
-    marginTop: '20px',
+    marginBottom: '10px',
     height: '200px',
   },
   imgCard:{

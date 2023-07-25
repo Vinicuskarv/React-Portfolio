@@ -22,6 +22,7 @@ const styles = {
     icon: {
         width: '28px',
         margin: '2px',
+        marginTop:'10px',
     },
 }
 export default ContaineIcons;

@@ -2,6 +2,7 @@ import '../../components/master.css';
 import './Home.css'
 import ContaineIcons from '../../components/contaiIcons';
 import astronauta from '../../components/Astronauta.png';
+import { Link } from 'react-router-dom';
 
 import DownloadButton from '../../components/downlodcv';
 
@@ -12,8 +13,8 @@ function HomeContainer() {
         <p>Hello people,</p>
         <h1 style={styles.h1}>I'M VINICIUS<br/>CARVALHO</h1>
         <p>Welcome to my portfolio website</p>
-        <a href="/AboutPage"><button className='buttonSobreMim' style={styles.ButtonSobreMim} >Learn more about me</button></a>
-        <DownloadButton />
+        <Link to='/AboutPage' className="buttonSobreMim" style={styles.ButtonSobreMim}>Learn more about me</Link>
+        <DownloadButton/>
         <ContaineIcons/>
       </div>
       <img className='astronauta' src={astronauta} alt="icon from github" />  
@@ -43,10 +44,8 @@ const styles = {
     margin: '2px',
   },
   ButtonSobreMim:{
-    margin: '20px 0 30px 0',
     borderRadius: '20px',
-    width: '251px',
-    height: '50px',
+    padding: '15px',
     color:' #ffffff',
     border: 'none',
   }

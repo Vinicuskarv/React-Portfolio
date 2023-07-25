@@ -20,6 +20,7 @@
 } 
 .buttonSobreMim{
     background: -webkit-linear-gradient(#460d60b0,#124886b1);
+    text-decoration: none;
 }
 .buttonSobreMim:hover{
     background: -webkit-linear-gradient(#460d60dd,#124886e4);
