@@ -1,8 +1,6 @@
 import '../../components/master.css';
-import './About.css'
-import icongithub from '../../components/icons/icons8-github.svg';
-import iconlinkedin from '../../components/icons/icons8-linkedin.svg';
-import iconwhatsapp from '../../components/icons/icons8-whatsapp.svg';
+import './About.css';
+import ContaineIcons from '../../components/contaiIcons';
 import iconOn from '../../components/icons/Icon-On.png';
 import iconOff from '../../components/icons/Icon-Off.png';
 import AstronautaMeditando from '../../components/AstronautaMeditando.png'
@@ -17,17 +15,7 @@ function AboutContainer() {
             <img src={AstronautaMeditando} className='AstronautaMeditando'  alt="Astronauta Meditando" />
         </div>
         <p>Hello! My name is Vinicius Carvalho, I'm 19 years old and I'm a Web Developer. I'm an expert in creation of websites and web applications, using languages ​​such as JavaScript and PHP. With my technical knowledge and creative skills, I am able to develop solutions personalized and efficient for the needs of my clients.</p>
-        <div className="contaiIcons">
-          <a href="https://github.com/Vinicuskarv">
-            <img src={icongithub} style={styles.icon} alt="icon from github" />
-          </a>
-          <a href="https://www.linkedin.com/in/vinicius-carvalho-lucius/">
-            <img src={iconlinkedin} style={styles.icon} alt="icon from linkedin" />
-          </a>
-          <a href="https://wa.me/351914127602">
-            <img src={iconwhatsapp} style={styles.icon} alt="icon from whatsapp" />        
-          </a>
-        </div> 
+        <ContaineIcons/>
         <h3 style={styles.h3}>Hard Skills</h3>
         <div className="d-flex">
             <div style={styles.Skill}>
@@ -115,10 +103,6 @@ const styles = {
         padding: '30px',
         fontFamily: "'Lora', serif",
         textAlign:'center',
-    },
-    icon: {
-        width: '28px',
-        margin: '2px',
     },
     h1:{
         fontSize: '50px',

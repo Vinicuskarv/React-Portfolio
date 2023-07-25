@@ -46,7 +46,12 @@
     background: -webkit-linear-gradient(#460d60b0,#124886b1);
     color: rgb(250, 244, 235);
 }
-.card{
-    width: 18rem;
+.campoIconstool img{
     opacity: 50%;
+}
+.importButtonPdf{
+    background: -webkit-linear-gradient(#460d60b0,#124886b1);
+}
+.importButtonPdf:hover{
+    background: -webkit-linear-gradient(#460d60dd,#124886e4);
 }

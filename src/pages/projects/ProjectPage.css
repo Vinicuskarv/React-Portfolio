@@ -1,0 +1,14 @@
+.campoIconsProfile img{
+    width: 25px;
+    border-radius: 30px;
+    opacity: 60%;
+}
+.campoIconsProfile img:hover{
+    opacity: 100%;
+}
+.campoIconsProfile{
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: flex-end;
+}

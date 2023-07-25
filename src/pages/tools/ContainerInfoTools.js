@@ -1,6 +1,7 @@
 import '../../components/master.css';
 import IconPhp from '../../components/icons/icons8-php.png'
 import IconMysql from '../../components/icons/icons8-mysql.png'
+import ContaineIcons from '../../components/contaiIcons';
 
 
 function ToolsContainer() {
@@ -17,6 +18,7 @@ function ToolsContainer() {
             <img style={styles.iconImg} src={IconMysql} alt="Icon Mysql" />
             <i style={styles.icon} class="devicon-react-original"></i>
         </div>
+        <ContaineIcons/>
         <div style={styles.poesia}>
             <p>"Learning is the only thing the mind never<br/> tires of, never fears and never regrets."</p>
             <h4>~Leonardo da Vinci</h4>
