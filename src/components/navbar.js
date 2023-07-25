@@ -1,4 +1,5 @@
 import IconReact from './icons/icons8-react-native.svg';
+import { Link } from 'react-router-dom';
 import './master.css';
 function NavBar() {
   return (
@@ -6,21 +7,19 @@ function NavBar() {
       <nav className="container" style={styles.NavBar}>
         <ul style={styles.ul}>
           <li style={styles.li}>
-            <a className="nav-link" href="/">Home</a>
+            <Link to='/'style={styles.a}>Home</Link>
           </li>
           <li style={styles.li}>
-            <a className="nav-link" href="/AboutPage">About</a>
+            <Link to='/AboutPage'style={styles.a}>About</Link>
           </li>
           <li style={styles.li}>
-            <a className="nav-link" href="/">
-              <img className='IconReact' src={IconReact} alt="Icon React" />
-            </a>
+            <Link to='/'style={styles.a}><img className='IconReact' src={IconReact} alt="Icon React" /></Link>
           </li>
           <li style={styles.li}>
-            <a className="nav-link" href="/ToolsPage">Tools</a>
+            <Link to='/ToolsPage'style={styles.a}>Tools</Link>
           </li>
           <li style={styles.li}>
-            <a className="nav-link"href="/ProjectPage">Projects</a>
+            <Link to='/ProjectPage'style={styles.a}>Projects</Link>
           </li>
         </ul>
       </nav>
@@ -41,9 +40,12 @@ const styles = {
     justifyContent: 'space-around',
   },
   li:{
-    color: 'aliceblue',
     margin: 'auto',
     fontFamily: "'Lora', serif",
+  },
+  a:{
+    color: 'aliceblue',
+    textDecoration:'none',
   }
 }
 

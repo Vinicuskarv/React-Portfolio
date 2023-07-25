@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div style={styles.content}>
-          <BrowserRouter>
+        <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/AboutPage' element={<About/>}/>
