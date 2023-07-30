@@ -3,7 +3,7 @@ import importPdf from '../components/icons/icons8-import-pdf-50.png'
 
 const DownloadButton = () => {
   const handleDownload = () => {
-    const cvUrl = 'https://github.com/Vinicuskarv/CVvini/blob/main/vinicius.pdf';
+    const cvUrl = 'https://github.com/Vinicuskarv/CVvini';
 
     const downloadLink = document.createElement('a');
     downloadLink.href = cvUrl;
