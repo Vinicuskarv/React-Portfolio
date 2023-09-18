@@ -8,6 +8,9 @@ import lerJson from '../../components/img/ler-json.png';
 import snake from '../../components/img/snake.png';
 import toDoList from '../../components/img/to-do-list.png';
 import nimeHistory from '../../components/img/nime-history.png';
+import estoqNode from '../../components/img/estoque-node.png';
+import presetCode from '../../components/img/PresetCode.png';
+
 
 import icongitgub from '../../components/gif/icons8-github.gif';
 import iconsite from '../../components/gif/icons8-site.gif';
@@ -17,6 +20,8 @@ import iconCSS from '../../components/icons/icons8-css-50.png';
 import iconJS from '../../components/icons/icons8-js-50.png';
 import iconPHP from '../../components/icons/icons8-php-50.png';
 import iconREACT from '../../components/icons/icons8-react-48.png';
+import iconNode from '../../components/icons/icons8-nodejs-32.png';
+
 
 function ProjectsContainer() {
   return (
@@ -51,14 +56,47 @@ function ProjectsContainer() {
                           <a className="elemento-container" href="https://64cfbc0edad64a5a742baa65--ephemeral-blancmange-166687.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
                         </div>
                         <div className="campoIconstool">
-                        <img src={iconREACT} alt="html"/>
+                        <img src={iconREACT} alt="React"/>
                           <img src={iconHTML} alt="html"/>
                           <img src={iconCSS} alt="css" />
                           <img src={iconJS} alt="js"/>                                          
                         </div>
                       </div>
                     </div>
-                  </div> 
+                  </div>
+                  <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Estoque</h5>
+                    <div className="card" style={styles.CardPri}>
+                      <img src={estoqNode} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
+                      <div className="card-img-overlay">
+                        <div className="campoIconsProfile">
+                          <a className="elemento-container" href="https://github.com/Vinicuskarv/EstoqueNodeJS"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
+                        </div>
+                        <div className="campoIconstool">
+                          <img src={iconNode} alt="node.js"/>    
+                          <img src={iconJS} alt="js"/>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Preset Code</h5>
+                    <div className="card" style={styles.CardPri}>
+                      <img src={presetCode} className="card-img" style={styles.imgCard} alt="Preset Code"/>
+                      <div className="card-img-overlay">
+                        <div className="campoIconsProfile">
+                          <a className="elemento-container" href="https://github.com/Vinicuskarv/preset-code"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
+                          <a className="elemento-container" href="https://main--fancy-pie-d21965.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
+                        </div>
+                        <div className="campoIconstool">
+                          <img src={iconREACT} alt="reack"/>
+                          <img src={iconHTML} alt="html"/>
+                          <img src={iconCSS} alt="css" />
+                          <img src={iconJS} alt="js"/>                   
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div className="col-12 col-md-6 col-lg-4">
                     <h5 className="card-title" style={styles.h5}>Juros Compostos</h5>
                     <div className="card" style={styles.CardPri}>
@@ -202,6 +240,39 @@ function ProjectsContainer() {
                       </div>
                     </div>
                   </div> 
+                  <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Estoque</h5>
+                    <div className="card" style={styles.CardPri}>
+                      <img src={estoqNode} className="card-img" style={styles.imgCard} alt="hotelDiaria"/>
+                      <div className="card-img-overlay">
+                        <div className="campoIconsProfile">
+                          <a className="elemento-container" href="https://github.com/Vinicuskarv/EstoqueNodeJS"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
+                        </div>
+                        <div className="campoIconstool">
+                          <img src={iconNode} alt="node.js"/>    
+                          <img src={iconJS} alt="js"/>                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-6 col-lg-4">
+                  <h5 className="card-title" style={styles.h5}>Preset Code</h5>
+                    <div className="card" style={styles.CardPri}>
+                      <img src={presetCode} className="card-img" style={styles.imgCard} alt="Preset Code"/>
+                      <div className="card-img-overlay">
+                        <div className="campoIconsProfile">
+                          <a className="elemento-container" href="https://github.com/Vinicuskarv/preset-code"><img className="IconSkill elemento" src={icongitgub} alt="icongitgub"/></a>
+                          <a className="elemento-container" href="https://main--fancy-pie-d21965.netlify.app/"><img className="IconSkill elemento" src={iconsite} alt="iconsite"/></a>
+                        </div>
+                        <div className="campoIconstool">
+                          <img src={iconREACT} alt="reack"/>
+                          <img src={iconHTML} alt="html"/>
+                          <img src={iconCSS} alt="css" />
+                          <img src={iconJS} alt="js"/>                   
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div className="col-12 col-md-6 col-lg-4">
                   <h5 className="card-title" style={styles.h5}>Snake Game</h5>
                     <div className="card" style={styles.CardPri}>

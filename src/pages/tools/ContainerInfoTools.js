@@ -1,6 +1,8 @@
 import '../../components/master.css';
 import IconPhp from '../../components/icons/icons8-php.png'
 import IconMysql from '../../components/icons/icons8-mysql.png'
+import iconNode from '../../components/icons/icons8-nodejs-48.png'
+
 import ContaineIcons from '../../components/contaiIcons';
 
 
@@ -14,9 +16,10 @@ function ToolsContainer() {
             <i style={styles.icon} className="devicon-html5-plain"></i>
             <i style={styles.icon} className="devicon-css3-plain"></i>
             <i style={styles.icon} className="devicon-javascript-plain"></i>
-            <img style={styles.iconImg} src={IconPhp} alt="Icon Php" />
+            <img style={styles.iconImg} src={IconPhp} alt="Icon Php" /><br/>
             <img style={styles.iconImg} src={IconMysql} alt="Icon Mysql" />
             <i style={styles.icon} className="devicon-react-original"></i>
+            <img style={styles.iconImg} src={iconNode} alt="Icon Mysql" />
         </div>
         <ContaineIcons/>
         <div style={styles.poesia}>

@@ -35,10 +35,10 @@ function AboutContainer() {
                 <img style={styles.IconSkill} src={iconOff} alt="off"/>
             </div>
             <div style={styles.Skill}>
-                <h4>React</h4>
+                <h4>React.js</h4>
                 <img style={styles.IconSkill} src={iconOn} alt="on"/>
                 <img style={styles.IconSkill} src={iconOn} alt="on"/>
-                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
                 <img style={styles.IconSkill} src={iconOff} alt="off"/>
                 <img style={styles.IconSkill} src={iconOff} alt="off"/>
             </div>
@@ -52,6 +52,14 @@ function AboutContainer() {
             </div>
         </div>
         <div className="d-flex">
+            <div style={styles.Skill}>
+                <h4>Node.js</h4>
+                <img style={styles.IconSkill} src={iconOn} alt="on"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+                <img style={styles.IconSkill} src={iconOff} alt="off"/>
+            </div>
             <div style={styles.Skill}>
                 <h4>MySQL</h4>
                 <img style={styles.IconSkill} src={iconOn} alt="on"/>
